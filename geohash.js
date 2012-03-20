@@ -117,4 +117,4 @@ GeoHash = function(){
   }
 }
 
-exports.GeoHash = GeoHash;
+if (exports) exports.GeoHash = GeoHash;
